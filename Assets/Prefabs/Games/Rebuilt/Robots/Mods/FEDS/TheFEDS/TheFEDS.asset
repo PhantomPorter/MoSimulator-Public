@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be1409438a6844eea96767966da7413b, type: 3}
+  m_Name: TheFEDS
+  m_EditorClassIdentifier: 
+  teamNumber: 201
+  teamName: The FEDS
+  robotImage: {fileID: 0}
+  mainRobot:
+    displayName: The FEDS
+    robotPrefab: {fileID: 7615379518368441445, guid: 45b0fb453d93df2f78878810bd38c6e6,
+      type: 3}
+    mainMenuPrefab: {fileID: 8904628986629436630, guid: 9052d773ef8ea5ca780c26fab77b207a,
+      type: 3}
+    spawnSelectionPrefab: {fileID: 1307682478653867288, guid: bbb99ce2f1a5f89bda16af55070e97bc,
+      type: 3}
+    preloadGamePiece: {fileID: 0}
+    tutorialCards:
+    - {fileID: 5738569900912459213, guid: 99810b788fda5b7a094841c846504dcc, type: 3}
+    - {fileID: 4007379169852336505, guid: ddf48af2d0688927fb4e86bc69e5e507, type: 3}
+    - {fileID: 2154701674030669961, guid: ce56652b39bb43dddb0f6292170a458a, type: 3}
+  alternateRobots: []
